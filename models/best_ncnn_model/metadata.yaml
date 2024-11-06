@@ -1,0 +1,23 @@
+description: Ultralytics best model trained on ./data.yaml
+author: Ultralytics
+date: '2024-10-29T10:39:10.209699'
+version: 8.3.24
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: person
+  1: face
+  2: bicycle
+  3: car
+  4: motorcycle
+  5: bus
+  6: truck
+  7: plate
+  8: cat
+  9: dog
