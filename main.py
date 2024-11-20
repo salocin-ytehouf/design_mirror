@@ -11,7 +11,7 @@ from modules.detection import YOLODetector
 from modules.processing import get_closest_face
 from modules.visualization import display_frames
 from modules.pan_tilt import PanTiltUnitManager
-from modules.utils import load_config_file
+from modules.utils import load_config_file, transfer_config
 import pyrealsense2 as rs
 
 def main():
@@ -25,6 +25,14 @@ def main():
         logging.error("Failed to load configuration:")
         logging.error(traceback.format_exc())  # Log full stack trace
         return
+    
+    # transfer config file to the rpi
+    try:
+        transfer_config(config)
+    except Exception as e:
+        logging.error("Failed to export configuration to rpi:")
+        logging.error(traceback.format_exc())  # Log full stack trace
+        return
 
     # Initialize components
     try:
@@ -32,8 +40,10 @@ def main():
         detector = YOLODetector(model_path='models/best_ncnn_model')
         pan_tilt_manager = PanTiltUnitManager(
             config['pan_tilt_units'],
-            mqtt_broker='192.168.1.14',  # Replace with your Raspberry Pi IP
-            mqtt_port=1883)
+            mqtt_broker=config['rpi']['ip'],
+            mqtt_port=1883,
+            angle_min = int(config["angle_limits"]["min_angle"]),
+            angle_max = int(config["angle_limits"]["max_angle"]))
 
     except Exception as e:
         logging.error("Initialization error:")

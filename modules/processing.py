@@ -62,19 +62,23 @@ def compute_pan_tilt_angles(transformed_position):
 #######################################################################################
 #######################################################################################
 
+'''
 def apply_safety_limits(angle):
     """Clamp angle to be within -45 to +45 degrees."""
-    return max(-45, min(45, angle))
-
+    return max(-65, min(65, angle))
+'''
+def apply_safety_limits(angle, min_angle, max_angle):
+    """Clamp angle to be within the min and max limits defined in the configuration."""
+    return max(min_angle, min(max_angle, angle))
 
 def map_to_servo_range(angle):
     """Map angle from -90 to +90 degrees to 0 to 180 degrees."""
     return angle + 90
 
-def transform_angle_to_servo(angle):
+def transform_angle_to_servo(angle, min_angle, max_angle):
     """Transform angle to be safe and map to servo range 0 to 180 degrees."""
     # Apply safety limits
-    safe_angle = apply_safety_limits(angle)
+    safe_angle = apply_safety_limits(angle, min_angle, max_angle)
     
     # Map to servo range
     servo_angle = map_to_servo_range(safe_angle)

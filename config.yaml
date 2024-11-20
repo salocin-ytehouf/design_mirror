@@ -1,17 +1,34 @@
+rpi:
+  ip: 192.168.1.14
+  user: "nico"
+  rpi_conf_path: "/home/nico/mirror/config.yaml"
+
+conf_path_local: "/home/nico/design/design_mirror/config.yaml"
+id_rsa_path: "/home/nico/.ssh/id_rsa"
+
 camera:
   position: [0.0, 0.0, 0.0]  # Camera position is the origin
   orientation: [0.0, 0.0, 0.0]  # Camera has no rotation in absolute referential
 
 pan_tilt_units:
   - name: "PanTilt1"
-    position: [-0.05, -0.42, 0.0]  # Example position relative to camera
+    position: [-0.46, -0.42, 0.2]  # Example position relative to camera
     orientation: [0.00, 0.0, 0.0]  # Orientation is zero (no rotation relative to camera)
     i2c_id: 0
     motors_id: [0, 1]
 
   - name: "PanTilt2"
-    position: [0.05, -0.42, 0.0]  # Example position relative to camera
+    position: [-0.46, -0.42, 0.0]  # Example position relative to camera
     orientation: [0.00, 0.0, 0.0]  # Orientation is zero (no rotation relative to camera)
     i2c_id: 0
     motors_id: [2, 3]
 
+  - name: "PanTilt3"
+    position: [-0.26, -0.42, 0.0]  # Example position relative to camera
+    orientation: [0.00, 0.0, 0.0]  # Orientation is zero (no rotation relative to camera)
+    i2c_id: 0
+    motors_id: [4, 5]
+
+angle_limits:
+  min_angle: -65
+  max_angle: 65

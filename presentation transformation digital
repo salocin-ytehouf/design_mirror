@@ -1,0 +1,269 @@
+COMPUTER HISTORY
+
+Ordinateur 
+Les premiers ordinateurs sont nés au milieu du 20e siècle, principalement en réponse aux besoins de calcul intensif pendant la Seconde Guerre mondiale. Voici les étapes clés de leur développement :
+1. Années 1930 - Les prémices de l’informatique
+
+    Machine de Turing (1936) : Alan Turing, mathématicien britannique, propose le concept théorique de la "machine de Turing", capable de résoudre des problèmes en suivant des instructions. Cette idée pose les bases de l'informatique moderne et de la logique computationnelle.
+    Zuse Z3 (1941) : En Allemagne, Konrad Zuse développe le Z3, considéré comme le premier ordinateur programmable fonctionnel. Il utilise des relais électromécaniques et peut effectuer des calculs complexes, mais il est détruit pendant la guerre.
+
+2. Années 1940 - Les premiers ordinateurs électromécaniques et électroniques
+
+    Colossus (1943-1944) : Construit au Royaume-Uni par une équipe dirigée par Tommy Flowers, le Colossus est conçu pour déchiffrer les messages codés allemands. Utilisant des tubes à vide, il est considéré comme l'un des premiers ordinateurs électroniques programmables.
+    Harvard Mark I (1944) : Créé par Howard Aiken et financé par IBM, le Harvard Mark I est un calculateur électromécanique utilisé par l’armée américaine pour des calculs complexes. C'est une machine hybride, qui fonctionne partiellement de manière électromécanique.
+    ENIAC (1945-1946) : Développé aux États-Unis par John Presper Eckert et John W. Mauchly, l'ENIAC (Electronic Numerical Integrator and Computer) est le premier ordinateur électronique généraliste entièrement programmable. Conçu pour les calculs balistiques, il utilise près de 18 000 tubes à vide et occupe une grande salle.
+
+3. Années 1950 - L’ère des ordinateurs commerciaux
+
+    UNIVAC I (1951) : Construit par les mêmes créateurs de l'ENIAC, l'UNIVAC I (Universal Automatic Computer) est le premier ordinateur commercial aux États-Unis. Il est utilisé par le Bureau du recensement américain et devient populaire pour sa capacité à traiter des données à grande échelle.
+    IBM 701 (1952) : IBM entre dans l’industrie informatique avec l’IBM 701, un ordinateur destiné à des applications militaires, scientifiques, et commerciales. Cela marque le début de la domination d'IBM dans le secteur des ordinateurs.
+    Transistors : En 1947, le transistor est inventé par les Bell Labs. Il remplace progressivement les tubes à vide dans les ordinateurs des années 1950, rendant les machines plus compactes, plus rapides et plus fiables.
+
+4. Années 1960 - L’avènement des ordinateurs modernes
+
+    Ordinateurs de la deuxième génération : Avec les transistors, les ordinateurs deviennent plus petits, plus puissants et plus fiables. Des modèles comme l’IBM 1401 sont largement utilisés dans les entreprises pour la gestion de données.
+    Ordinateurs de la troisième génération : Dans les années 1960, les circuits intégrés (puces contenant plusieurs transistors) remplacent les transistors discrets, inaugurant les ordinateurs modernes et permettant des capacités de calcul accrues.
+    PDP-1 (1960) : Le PDP-1 de Digital Equipment Corporation (DEC) marque le début des mini-ordinateurs, offrant une alternative aux grands systèmes informatiques d’IBM et rendant l’informatique plus accessible pour les entreprises et les universités.
+
+5. Années 1970 - La révolution des micro-ordinateurs
+
+    Microprocesseurs (1971) : L’invention du microprocesseur, comme l'Intel 4004, condense une unité de traitement central (CPU) sur une seule puce, rendant possible la création d’ordinateurs personnels.
+    Altair 8800 (1975) : Considéré comme le premier ordinateur personnel, l'Altair 8800 est vendu sous forme de kit aux amateurs d'informatique. Sa popularité inspire des entrepreneurs comme Bill Gates et Paul Allen, qui développent un langage de programmation pour la machine.
+    Apple I (1976) : Conçu par Steve Wozniak et vendu par Steve Jobs, l’Apple I est un autre ordinateur personnel pionnier. Il sera suivi par l'Apple II, l'un des premiers ordinateurs personnels à succès.
+
+gpu ET oRDINATEUR QUANTIQUE 
+
+VIDEO INTEL VS NVDIA
+
+DARPA 
+    GPS
+    MEMS (Microelectromechanical Systems)
+    ATLAS 
+
+INTERNET HISTORY
+1960s: Early Networks and Foundations of the Internet
+
+    ARPANET: Initiated by the U.S. Department of Defense’s Advanced Research Projects Agency (ARPA), ARPANET was created as a decentralized communication network. The first message was sent between UCLA and Stanford in 1969, marking the start of interconnected computers.
+    Cold War Influence: The decentralized design aimed to maintain communication even if some nodes were destroyed, a priority during the Cold War era.
+
+1970s: Communication Protocols and Standardization
+
+    TCP/IP Development: Vinton Cerf and Robert Kahn developed the TCP/IP protocol, which standardized communication between networks. By 1977, TCP/IP facilitated connections across ARPANET, SATNET, and PRNET, establishing a basis for the global internet.
+    Early Adoption: TCP/IP became the foundation for modern internet infrastructure.
+
+1980s: Expansion of Networks and Digital Transformation in Business
+
+    Domain Name System (DNS): Introduced in 1983, DNS linked numeric IP addresses to domain names, making internet navigation more user-friendly.
+    Mainframe Computers: Businesses began using mainframes for data storage and operational processes, marking early stages of digitization in data management, payroll, and inventory.
+    PCs in Business: With the introduction of personal computers (PCs), employees gained new tools for digital work, initiating the move toward digital business processes.
+
+1990s: Internet Commercialization and Early Digital Business Models
+
+    World Wide Web (WWW): Proposed by Tim Berners-Lee in 1989, the WWW became public in 1991, enabling the use of HTTP to access interconnected pages. This transformed internet use for both institutions and the general public.
+    Web Browsers and Accessibility: The launch of the first graphical browser, Mosaic, in 1993, boosted internet accessibility and popularity, driving public adoption.
+    Internet and Email: By the mid-1990s, email and websites became common in businesses, allowing global communication and the shift from physical to digital interactions.
+
+2000s: Rise of Web 2.0, E-commerce, and Mobile
+
+    Web 2.0: The internet evolved to allow user interaction, leading to social media, e-commerce platforms, and user-generated content. Companies like Amazon and eBay changed retail, prompting businesses to create digital strategies.
+    Mobile Technology: With the spread of smartphones, businesses adapted to mobile consumers by developing mobile applications, launching the era of digital customer experiences.
+
+2010s: Big Data, Cloud Computing, and IoT
+
+    Big Data: Businesses started collecting massive data volumes, using analytics to gain insights into consumer behavior, preferences, and operational efficiency.
+    Cloud Computing: Cloud services provided scalable and flexible solutions, enabling digital transformation without significant upfront costs and making advanced technology accessible to more businesses.
+    Internet of Things (IoT): IoT connected devices for real-time data and automation, particularly in manufacturing and logistics, enhancing supply chain and operational efficiency.
+
+Late 2010s - Present: AI, Machine Learning, and Advanced Connectivity
+
+    AI and Machine Learning: These technologies allowed automation, data analytics, and personalization, becoming essential in digital transformation, customer service (e.g., chatbots), and decision-making.
+    5G and Connectivity: The rollout of 5G supported faster, more reliable connectivity for applications like real-time data processing, smart cities, and autonomous vehicles.
+    Digital-First Business Models: Companies like Netflix, Uber, and Airbnb showcased the potential of digital-first models, inspiring traditional companies to prioritize digital strategies.
+
+
+VIDEO WEBBROWSER 
+
+
+AI HISTORY
+
+1950 - Turing Test Proposed: Alan Turing introduces the concept of the Turing Test in his paper, "Computing Machinery and Intelligence," which asks, "Can machines think?"
+
+1956 - Dartmouth Conference: John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon organize the Dartmouth Conference, where the term "Artificial Intelligence" is first used, marking the founding of AI as a field.
+
+1957 - Invention of the Perceptron: Rosenblatt develops the Perceptron model, 
+
+1966 - ELIZA Chatbot Created: Joseph Weizenbaum creates ELIZA, an early natural language processing program that simulates conversation, foreshadowing the development of modern chatbots.
+
+1969 - Limitations of the Perceptron Identified: Marvin Minsky and Seymour Papert publish Perceptrons, a book that mathematically demonstrates the limitations of single-layer Perceptrons, such as their inability to solve non-linearly separable problems like the XOR problem. This critique contributed to the "AI Winter," a period of reduced funding and interest in neural networks.
+        mUKTILAYER mlp OK BUT LIMITATION ON DATA AND HARDWARE 
+1970s - AI Winter Begins: Due to high expectations and limited technological progress, funding cuts and skepticism lead to a reduction in AI research, marking the first "AI Winter."
+
+1997 - Deep Blue Defeats Kasparov: IBM's Deep Blue chess computer defeats world champion Garry Kasparov, marking the first time a computer beats a reigning world champion in a chess match.
+
+2006 - Big Data and Deep Learning: The rise of big data and computing power supports the resurgence of neural networks and deep learning, beginning a new era of AI.
+
+2011 - IBM Watson Wins Jeopardy!: IBM’s Watson beats top human players in the quiz show Jeopardy!, demonstrating the power of AI in natural language processing and machine learning.
+
+2012 - ImageNet and AlexNet: Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton create AlexNet, a deep neural network that achieves breakthrough performance in image classification, popularizing deep learning.
+
+2014 - Google Acquires DeepMind: Google acquires DeepMind, a leading AI research lab, accelerating AI advancements in reinforcement learning and neural networks.
+
+2014 - Turing Test Claimed: Eugene Goostman, a chatbot simulating a 13-year-old, is claimed to pass the Turing Test for the first time, sparking debate about the test’s relevance.
+
+2016 - AlphaGo Defeats Lee Sedol: DeepMind's AlphaGo AI defeats Go world champion Lee Sedol in a game previously thought too complex for computers, due to its vast number of possible moves.
+
+2017 - Transformer Model Introduced: Researchers at Google publish the paper "Attention is All You Need," introducing the Transformer model, a major leap in natural language processing (NLP).
+
+2018 - GPT-2 Released: OpenAI releases GPT-2, a language model capable of generating coherent and contextually relevant text, sparking excitement and concerns over AI-generated content.
+
+2020 - GPT-3 Released: OpenAI launches GPT-3, a powerful language model with 175 billion parameters, showcasing advanced text generation and a wide range of language applications.
+
+2021 - DeepMind’s AlphaFold Solves Protein Folding: AlphaFold achieves significant progress in protein structure prediction, aiding scientific research in biology and medicine.
+
+2022 - Generative AI Boom (DALL-E, Midjourney, Stable Diffusion): OpenAI’s DALL-E 2, Midjourney, and Stability AI’s Stable Diffusion popularize text-to-image generation, revolutionizing content creation.
+
+2023 - GPT-4 Released: OpenAI releases GPT-4, further advancing language model capabilities, with enhanced reasoning, language, and multimodal processing.
+
+
+Linus Torvalds
+Here are some key numbers illustrating the impact and scale of Git and Linux:
+Git
+
+    Created in: 2005
+    Usage: Git is the most widely used version control system globally, with millions of developers relying on it for collaborative work.
+    Repositories on GitHub: Over 330 million repositories on GitHub (as of 2023), many of which use Git.
+    Commits: Billions of commits are made yearly by developers around the world using Git.
+
+Linux
+
+    Created in: 1991
+    Kernel Size: The Linux kernel has over 30 million lines of code.
+    Contributors: More than 15,000 developers have contributed to the Linux kernel from hundreds of companies.
+    Market Share: Linux powers over 90% of the public cloud workload, 100% of the world’s top 500 supercomputers, and a vast portion of servers, smartphones (via Android), and embedded systems.
+    Updates: Approximately 80-100 commits are made to the Linux kernel daily, showcasing its active development.
+
+These numbers reflect the massive influence of Git and Linux in the software and technology industries.
+
+Digital transformation refers to incorporating digital technologies like artificial intelligence, machine learning, the Internet of Things (IoT), 
+cloud computing, and data analytics among others, in a company’s business operations to bring efficiency and drive growth.
+
+However, it goes beyond merely integrating new tools and technologies; 
+instead, it involves redefining business processes and adopting new models to leverage the full potential of digital technologies.
+
+Increased Efficiency: Digital tools streamline operations by automating repetitive tasks, reducing errors, and enhancing productivity. Technologies like RPA manage tasks like data entry and inventory monitoring, while collaboration tools like Slack and Zoom improve team communication.
+
+Driving Innovation: Technologies like AI, ML, and Blockchain enable the creation of new products and services, from self-driving cars to secure financial transactions, transforming industries and opening new avenues for growth.
+
+Improved Decision-Making: Business Intelligence tools like Tableau and PowerBI help convert vast data into actionable insights, allowing for data-driven strategies and more effective marketing.
+
+Competitiveness: Automation and digital processes increase operational efficiency and customer satisfaction, giving businesses a strategic edge in the market.
+
+Cost Savings: Automation reduces labor costs, and cloud computing eliminates the need for heavy IT infrastructure, allowing businesses to scale resources as needed.
+
+Better Customer Experience: Analytics and AI-driven solutions personalize interactions and provide 24/7 support, improving service quality and customer satisfaction.
+
+
+BEST EXAMPLE OF DIGITAL Transformation
+
+BORN IN DIGITAL 
+OR TRANSFORM FROM DIGITAL TO DIGITAL 
+ EXAMPLE L'ORELA 
+ 2. Executive Committee:
+
+    Chief Executive Officer (CEO): Nicolas Hieronimus
+    Deputy CEO, Research, Innovation & Technology: Barbara Lavernos
+    Chief Financial Officer (CFO): Christophe Babule
+    Chief Digital & Marketing Officer: Asmita Dubey
+    Chief Human Relations Officer: Jean-Claude Le Grand
+    Chief Operations Officer: Antoine Vanlaeys
+    Chief Corporate Responsibility Officer: Ezgi Barcenas
+    Chief Corporate Affairs & Engagement Officer: Blanca Juti
+    Chief Global Growth Officer: Fabrice Megarbane
+
+BEST
+NETFLIX 
+UBER
+AMAZON 2006 aws 
+    Scalability: Companies can scale resources up or down based on demand.
+    Cost Efficiency: Pay-as-you-go models reduce infrastructure costs.
+        Global Accessibility: Data and applications are accessible from anywhere with an internet connection.
+
+Innovation Enabler: The cloud supports rapid deployment and testing of new ideas without heavy upfront costs.
+AIRBNB 
+BOOKING 1996 CREATED DIRECTLY AS A INTERNET COMPANY
+DOCTOLIB 
+COURSERA
+
+WALMART?
+
+
+WORST
+
+
+EXAMPLE 
+
+DIGITAL MARKETING 
+
+PRICING 
+On average, Amazon implements over 2.5 million price changes daily, equating to approximately 1,700 price adjustments per minute.
+Expert Beacon
+
+The frequency of price updates for individual products varies based on several factors:
+
+    Product Category and Popularity: High-demand items, especially in categories like electronics, often experience more frequent price changes. Some popular products may have their prices adjusted as often as every 10 minutes.
+    Marketing Scoop
+
+    Competitive Landscape: Amazon continuously monitors competitors' pricing. If a competitor lowers their price, Amazon's algorithms may quickly adjust to match or beat it, leading to rapid price fluctuations.
+    33rd Square
+
+    Supply and Demand Dynamics: Prices may increase when demand spikes or inventory levels drop, and decrease when demand wanes or stock is abundant.
+    Expert Beacon
+
+For consumers and sellers aiming to monitor these price changes, tools like Keepa and CamelCamelCamel offer detailed price history charts and alerts for Amazon products.
+Keepa
+CamelCamelCamel
+
+In summary, while Amazon's overall pricing strategy involves millions of daily adjustments, the frequency of price updates for a specific product depends on its category, demand, competition, and other market factors.
+
+
+
+
+
+Amazon's pricing system is a complex algorithmic model based on dynamic pricing, which uses data analytics and machine learning to continuously adjust product prices. Here’s an overview of how it works from both data and mathematical perspectives:
+1. Data Collection:
+
+    Competitor Prices: Amazon collects pricing data from competitors in real-time to ensure they remain competitive.
+    Customer Behavior: Data is gathered on clicks, purchases, cart abandonment, browsing time, and wishlists. This provides insights into consumer interest and price sensitivity.
+    Inventory Levels: Inventory data informs pricing changes based on stock levels; low stock might prompt a price increase to manage demand.
+    Time and Seasonal Factors: Data on sales patterns throughout the day, week, or year influences time-based pricing adjustments, with sales events or holiday seasons triggering different price strategies.
+
+2. Mathematical Models:
+
+Amazon’s dynamic pricing employs various mathematical approaches, including machine learning algorithms and econometric models. Some key models include:
+
+    Regression Analysis: Used to estimate demand elasticity—how sensitive demand is to changes in price. For instance, a high elasticity means small price reductions may significantly increase demand.
+    Price Elasticity Optimization: Based on the demand elasticity data, prices are adjusted to optimize revenue. This is often calculated using elasticity formulas:
+    Price Elasticity of Demand=% change in quantity demanded% change in price
+    Price Elasticity of Demand=% change in price% change in quantity demanded​
+    Time Series Analysis: Analyzes historical price and demand patterns over time to predict future demand and optimize prices accordingly. Techniques like ARIMA (Auto-Regressive Integrated Moving Average) or Prophet are common in forecasting.
+    Multi-armed Bandit Algorithms: A machine learning method used to test multiple prices and observe their impact on demand in real-time, allowing the algorithm to "learn" the optimal price for maximum revenue.
+
+3. Optimization Techniques:
+
+    Inventory Management and Price Sensitivity Analysis: Optimization models consider both price and inventory simultaneously. For example, if inventory levels are high, the model may suggest a lower price to increase sales, while a lower inventory may trigger a higher price.
+    Revenue Management: To maximize revenue, Amazon’s algorithms often use:
+    Revenue=Price×Quantity Sold
+    Revenue=Price×Quantity Sold The goal is to find the price point that maximizes this function based on the expected quantity sold at various price levels.
+    Game Theory: This involves modeling competitor actions and reactions. Algorithms can simulate potential competitor pricing moves and adjust Amazon’s prices preemptively to stay competitive.
+
+4. Machine Learning Algorithms:
+
+    Reinforcement Learning: Amazon's pricing engine often uses reinforcement learning to continuously learn and adapt prices based on customer reactions and competitor moves, adjusting its pricing strategy to meet changing demand and market conditions.
+    Neural Networks: Deep learning models may analyze customer purchase patterns and forecast demand shifts, especially for high-demand or seasonal products.
+
+5. Automation and Real-Time Adjustments:
+
+Amazon’s system is largely automated, allowing prices to update as often as every few minutes for certain products. The algorithms optimize based on the latest available data, ensuring prices are always aligned with the current market and demand trends.
+Summary:
+
+Through a combination of data science, machine learning, and advanced mathematics, Amazon continuously adjusts prices in real-time to maximize revenue and maintain competitiveness. The pricing algorithm takes into account factors like demand elasticity, competitor pricing, customer behavior, and inventory levels, employing statistical models, optimization techniques, and machine learning to set the optimal price at any given time.

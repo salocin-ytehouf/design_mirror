@@ -253,7 +253,7 @@ allow_anonymous true
 ```
 
 Restart Mosquitto:
-```bash
+```bash-(-)
 sudo systemctl restart mosquitto
 ```
 
@@ -422,7 +422,24 @@ pan_tilt_units:
     - Observe the pan-tilt units tracking detected faces.
 
 # TO DO 
-- add rpi ip adress inside config file 
-- sent config file from local computer to rpi 
-  - Goal : avoid duplicate config file in local computer and rpi
+
 - allow sequences to move servo (not only face tracking mode)
+
+
+- add storing last command for each servo (smoothing movement)
+  - add limit angle previous -minus new to smooth movement
+
+# conect 
+find the mirror main computer 
+```
+sudo nmap -sP 
+
+2. Copy the Public Key to the Raspberry Pi
+
+Ensure that the public key associated with your private key is added to the ~/.ssh/authorized_keys file on the Raspberry Pi.
+
+Run the following command on your local machine:
+
+ssh-copy-id -i ~/.ssh/id_rsa nico@192.168.1.14
+
+This will copy your public key (~/.ssh/id_rsa.pub) to the Raspberry Pi and add it to the authorized_keys file. You will be prompted for your password once.

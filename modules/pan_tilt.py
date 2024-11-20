@@ -11,12 +11,14 @@ import paho.mqtt.client as mqtt
 import json
 
 class PanTiltUnit:
-    def __init__(self, name, position, orientation, i2c_id=None, motors_id=None):
+    def __init__(self, name, position, orientation, i2c_id=None, motors_id=None, angle_min=None, angle_max=None):
         self.name = name
         self.position = position  # [x, y, z]
         self.orientation = orientation  # [roll, pitch, yaw]
         self.i2c_id = i2c_id
         self.motors_id = motors_id
+        self.angle_min = angle_min
+        self.angle_max = angle_max
 
     def compute_angles(self, target_position):
         """Compute pan and tilt angles to the target."""
@@ -24,19 +26,21 @@ class PanTiltUnit:
             transformed_position = transform_to_unit_frame(target_position, self.position, self.orientation)
             pan_angle, tilt_angle = compute_pan_tilt_angles(transformed_position)
             # Transform to servo angles
-            pan_servo_angle = transform_angle_to_servo(pan_angle)
-            tilt_servo_angle = transform_angle_to_servo(tilt_angle)
+            pan_servo_angle = transform_angle_to_servo(pan_angle, self.angle_min, self.angle_max)
+            tilt_servo_angle = transform_angle_to_servo(tilt_angle, self.angle_min, self.angle_max)
             return pan_servo_angle, tilt_servo_angle
         except Exception as e:
             logging.error(f"Error computing angles for {self.name}: {e}")
             return None, None
 
 class PanTiltUnitManager:
-    def __init__(self, units_config, mqtt_broker='localhost', mqtt_port=1883):
+    def __init__(self, units_config, mqtt_broker='localhost', mqtt_port=1883, angle_min=None, angle_max=None):
         self.units = []
         self.mqtt_client = mqtt.Client()
         self.mqtt_client.connect(mqtt_broker, mqtt_port)
         self.mqtt_client.loop_start()
+        self.angle_min = angle_min
+        self.angle_max = angle_max
 
         for unit_conf in units_config:
             try:
@@ -45,7 +49,9 @@ class PanTiltUnitManager:
                     position=unit_conf['position'],
                     orientation=unit_conf['orientation'],
                     i2c_id=unit_conf.get('i2c_id'),
-                    motors_id=unit_conf.get('motors_id')
+                    motors_id=unit_conf.get('motors_id'),
+                    angle_min= self.angle_min,
+                    angle_max= self.angle_max,
                 )
                 self.units.append(unit)
                 logging.info(f"Initialized pan-tilt unit: {unit.name}")
