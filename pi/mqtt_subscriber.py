@@ -44,7 +44,7 @@ def on_message(client, userdata, msg):
             pan = unit_data["pan"]
             tilt = unit_data["tilt"]
 
-            logging.info(f"Received for {unit_name}: Pan = {pan}°, Tilt = {tilt}°")
+            logging.info(f"Received for {unit_name} and I2C bus {i2c_id}: Pan = {pan}°, Tilt = {tilt}°")
 
             # Prepare data for moving servos
             # Assuming motors_id[0] is pan servo, motors_id[1] is tilt servo
