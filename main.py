@@ -61,7 +61,7 @@ def main():
             try:
                 faces = detector.detect_faces(color_image)
             except Exception as e:
-                logging.error(f"Face detection error: {e}")
+                #logging.error(f"Face detection error: {e}")
                 logging.error(traceback.format_exc())
                 exit()
                 continue
